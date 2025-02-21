@@ -5,7 +5,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <section id="__footer" className="py-5">
-      <div className="text-center text-sm text-gray-100">
+      <div className="text-center text-xs md:text-sm text-gray-100">
         <p>
           &copy; 2025, Built by{" "}
           <Link
