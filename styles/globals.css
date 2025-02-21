@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 45, 25, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+  
+  
+@font-face {
+    font-family: "Sora";
+    src: "/fonts/Sora-VariableFont_wght.ttf";
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    color: rgb(var(--foreground-rgb));
+    overflow-x: hidden;
+    font: Sora;
+    background: linear-gradient(90deg, rgba(20,88,128,1) 0%, rgba(25,159,215,1) 40%, rgba(25,159,215,1) 60%, rgba(20,88,128,1) 100%);
+  }
