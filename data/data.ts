@@ -2,11 +2,11 @@ import { dataTypes } from "@/type/type";
 import { LiaLinkedin, LiaYoutube,LiaWhatsapp, LiaFileAlt, LiaInstagram, LiaBasketballBallSolid } from "react-icons/lia";
 
 export const datas: dataTypes[] = [
-  {
-    title: "Website",
-    link: "",
-    icon: LiaBasketballBallSolid,
-  },
+//   {
+//     title: "Website",
+//     link: "",
+//     icon: LiaBasketballBallSolid,
+//   },
   {
     title: "Linkedin",
     link: "https://www.linkedin.com/company/hmse-tup/",
