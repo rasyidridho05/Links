@@ -1,6 +1,7 @@
 import { NextPage } from "next";
 import Content from "@/components/content";
 import Footer from "@/components/footer";
+import Particle from "@/components/particle";
 
 const Index: NextPage = () => {
   return (
@@ -9,7 +10,8 @@ const Index: NextPage = () => {
         <div className="bg-white bg-opacity-20 container max-w-screen-lg py-4 rounded-2xl w-fit md:w-full px-4 md:px-0">
           <Content />
         </div>
-        <Footer/>
+        <Footer />
+        <Particle />
       </main>
     </>
   );
