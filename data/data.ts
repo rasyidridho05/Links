@@ -10,7 +10,7 @@ export const datas: dataTypes[] = [
   
   {
     title: "Instagram",
-    link: "https://www.instagram.com/hmse_telkompurwokerto/",
+    link: "https://www.instagram.com/hmse.telkompurwokerto/",
     icon: LiaInstagram,
   },
   {
