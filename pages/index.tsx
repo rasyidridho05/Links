@@ -11,7 +11,6 @@ const Index: NextPage = () => {
           <Content />
         </div>
         <Footer />
-        <Particle />
       </main>
     </>
   );
