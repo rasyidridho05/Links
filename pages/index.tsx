@@ -1,7 +1,6 @@
 import { NextPage } from "next";
 import Content from "@/components/content";
 import Footer from "@/components/footer";
-import Particle from "@/components/particle";
 
 const Index: NextPage = () => {
   return (
