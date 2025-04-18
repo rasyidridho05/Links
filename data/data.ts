@@ -1,13 +1,25 @@
 import { dataTypes } from "@/type/type";
-import { LiaLinkedin, LiaYoutube,LiaWhatsapp, LiaFileAlt, LiaInstagram, LiaBasketballBallSolid } from "react-icons/lia";
+import {
+  LiaLinkedin,
+  LiaYoutube,
+  LiaWhatsapp,
+  LiaFileAlt,
+  LiaInstagram,
+  LiaBasketballBallSolid,
+  LiaEnvelope,
+} from "react-icons/lia";
 
 export const datas: dataTypes[] = [
-//   {
-//     title: "Website",
-//     link: "",
-//     icon: LiaBasketballBallSolid,
-//   },
-  
+  //   {
+  //     title: "Website",
+  //     link: "",
+  //     icon: LiaBasketballBallSolid,
+  //   },
+  {
+    title: "Email",
+    link: "mailto:hmse-pwt@telkomuniversity.ac.id",
+    icon: LiaEnvelope,
+  },
   {
     title: "Instagram",
     link: "https://www.instagram.com/hmse.telkompurwokerto/",
@@ -38,5 +50,4 @@ export const datas: dataTypes[] = [
     link: "https://docs.google.com/document/d/1yn0xXvfSeQTjBjUdZH2troHXgrjytLHJ/edit?usp=drivesdk&ouid=113054099281334073740&rtpof=true&sd=true",
     icon: LiaFileAlt,
   },
-
 ];
